@@ -1,0 +1,37 @@
+phrase: I love cryptography
+
+const numKey = {
+    a: 2,
+    b: 6,
+    c: 76,
+    d: 23,
+    e: 12,
+    f: 13,
+    g: 14,
+    h: 9,
+    i: 1,
+    j: 3,
+    k: 56,
+    l: 43,
+    m: 25,
+    n: 78,
+    o: 90,
+    p: 11,
+    q: 21,
+    r: 34,
+    s: 32,
+    t: 29,
+    u: 80,
+    v: 76,
+    w: 54,
+    x: 61,
+    y: 26,
+    z: 19
+}
+
+each party would need a number key with random numbers assigned to each letter of the alphabet
+
+encryption: multiply each number by 2, add 17, multiply by 7
+decryption: divide by 7, minus 17, divide by 2
+
+then use the number key
